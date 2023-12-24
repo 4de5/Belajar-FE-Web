@@ -1,0 +1,39 @@
+<html>
+<body>
+    Saat kita membuat tabel, kadang kita ingin menggabungkan beberapa kolom atau beberapa baris, sehingga terlihat menjadi satu kolom
+    <br>Pada kasus itu, kita bisa menggunakan atribut colspan untuk menggabungkan beberapa kolom dalam satu baris yang sama
+    <br>Atau menggunakan atribut rowspan untuk menggabungkan beberapa kolom di baris yang berbeda
+    
+
+    <h1>Belajar table</h1>
+    <table style="border: 1px solid black;">
+        <colgroup>
+            <col span="2" style="background-color: antiquewhite;">
+            <col style="background-color: aqua;"> 
+        </colgroup>
+        <thead>
+            <tr>
+                <th colspan="2">
+                    Nama
+                </th>
+                <th>
+                    Alamat
+                </th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td rowspan="2">Negara</td>
+                <td>Negara</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td>Indonesia</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <p>Kesimpulan: rowspan untuk menggabungkan baris(atas-bawah) - cowspan menggabungkan kolom(kanan-kiri)</p>
+</body>
+</html>
