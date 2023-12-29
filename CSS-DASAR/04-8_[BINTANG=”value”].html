@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atribute</title>
+    <style>
+        [title*="belajar"]{
+            color: white;
+            background-color: black;
+        }
+
+        .article[title*="belajar"]{
+            color: white;
+            background-color: black;
+        }
+
+        #coba[title*="belajar"]{
+            color: white;
+            background-color: black;
+        }
+
+        /* sebenarnya tidak perlu pake TAG bisa
+        untuk class dan id juga bisa */
+
+    </style>
+</head>
+<body>
+    <h1>CSS TANPA TAG [attribute*=”value”] Selector</h1>
+    <hr>
+    <p title="belajar">YES</p>
+    <p title="program belajar">YES</p>
+    <p title="program belajar bersama">YES</p>
+    <p title="belajar coding">YES</p>
+    <p title="belajar-coding">YES</p>
+    <p title="belajar0coding">YES</p>
+    <p title="belajar+coding">YES</p>
+    <p title="belajarcoding">YES</p>
+    <p title="Belajar">NO</p>
+    <hr>
+    <span class="article" title="belajar">YES</span> <br>
+    <span class="article">NO</span>
+    <hr>
+    <a id="coba" title="belajar">YES</a> <br>
+    <a id="coba" href="01-1_Koneksi-CSS.html">NO</a>
+</body>
+</html>

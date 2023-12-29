@@ -1,1 +1,22 @@
-/* tes on origin main 4de5 */
+/*Ini cara membuat koment di CSS*/
+/*File ini akan digunakan untuk membuat eksternal data css*/
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+/*
+h1 adalah property
+color:red; adalah value
+*/
+
+.biru {
+    color: blue;
+    text-transform: capitalize;
+}
+
+#judul{
+    color: black;
+    text-transform: uppercase;
+}

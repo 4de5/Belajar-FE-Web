@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atribute</title>
+    <style>
+        p[title*="belajar"]{
+            color: white;
+            background-color: black;
+
+            /* kalo ada tag <p> yang memiliki artibut "title"
+                dan value mengandung "belajar"
+                BAHKAN DENGAN/TANPA/SPASI -+0
+                akan mengikuti aturan ini 
+            */
+
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS [attribute*=”value”] Selector</h1>
+    <hr>
+    <p title="belajar">YES</p>
+    <p title="program belajar">YES</p>
+    <p title="program belajar bersama">YES</p>
+    <p title="belajar coding">YES</p>
+    <p title="belajar-coding">YES</p>
+    <p title="belajar0coding">YES</p>
+    <p title="belajar+coding">YES</p>
+    <p title="belajarcoding">YES</p>
+    <p title="Belajar">NO</p>
+</body>
+</html>

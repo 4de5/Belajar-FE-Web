@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atribute</title>
+    <style>
+        p[title|="belajar"]{
+            color: white;
+            background-color: black;
+
+            /* kalo ada tag <p> yang memiliki artibut "title"
+                dan value == "belajar"
+                akan mengikuti aturan ini */
+
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS [attribute|=”value”] Selector</h1>
+    ini pake OR bukan L
+    <hr>
+    <p title="belajar">YES</p>
+    <p title="belajar coding">NO</p>
+    <p title="belajarcoding">NO</p>
+    <p title="Belajar">NO</p>
+</body>
+</html>

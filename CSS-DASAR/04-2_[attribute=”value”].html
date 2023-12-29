@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atribute</title>
+    <style>
+        a[target="_blank"]{
+            color: white;
+            background-color: black;
+
+            /* kalo ada tag <a> yang memiliki artibut "target" dan value "_blank"
+            akan mengikuti aturan ini */
+
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS [attribute=”value”] Selector</h1>
+    <hr>
+    <a href="01-1_Koneksi-CSS.html" target="_blank">YES</a> <br>
+    <a href="01-1_Koneksi-CSS.html" target="_self">NO</a> <br>
+    <a href="01-1_Koneksi-CSS.html" target="">NO</a> <br>
+    <a href="01-1_Koneksi-CSS.html">NO</a>
+</body>
+</html>
