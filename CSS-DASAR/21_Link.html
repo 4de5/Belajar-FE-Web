@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <style>
+        /*Link memiliki banyak sekali pseudo-classes
+        yang bisa kita gunakan untuk mengubah tampilan
+        Link pada state tertentu*/
+
+        .tes{
+            color : blue; /*link akan biru*/
+            border: 2px solid blue;
+            border-radius: 5px;
+            padding: 5px; /*jarak konten ke border*/
+            text-decoration: none; /*Menghilangkan underline*/
+        }
+
+        .tes:hover{
+            /*Aksi bila kursor menuju element*/
+            color: blue; 
+            background-color: brown;
+        }
+
+        .tes:visited{
+            /*Penanda di browser ketika link sudah pernah dikunjungi*/
+            background-color: wheat;
+            color: black;
+            border: black;
+        }
+
+        div{
+            padding: 20px;
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes#user_action_pseudo-classes">Doc1</a> <br>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes#location_pseudo-classes">Doc2</a>
+    <hr>
+    <div>
+        <a class="tes" href="01-1_Koneksi-CSS.html">Tes1</a>
+    </div>
+    <div>
+        <a class="tes" href="02-1_Selector-Tag.html">Tes2</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        body {
+            padding: 0px;
+        }
+        div{
+            padding: 0px;
+        }
+        p{
+            padding: 0px;
+        }
+        #satu{
+            background-color: pink;
+            text-align: justify;
+            padding: 10px;
+            margin: 20px 0px;
+            border:blue 2px solid; /*color-style-width----BISA ACAK TERNYATA*/
+        }
+
+        #dua{
+            background-color: rgb(255, 255, 255);
+            text-align: justify;
+            padding: 10px;
+            margin: 20px 0px;
+            border-width: 2px;
+            border-color: rgb(255, 0, 0);
+            border-style: solid;
+            border-radius: 20px 0px 10px 2px; /*atasKiri-atasKanan-searah jarum jam*/
+        }
+
+        /* Kadang, kita ingin mengubah border tiap sisi berbeda,
+        untuk itu kita bisa menggunakan property border-right,
+        border-left, border-top dan border-bottom
+        ATAU-------------------------------
+        border-left-style, border-right-color, borde.... */
+
+    </style>
+</head>
+<body>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border">Doc</a> <br>
+    <hr>
+    <div id="satu">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias impedit exercitationem sequi tenetur incidunt similique, qui, nostrum doloremque fuga neque quas? Necessitatibus excepturi vitae ipsa adipisci assumenda cupiditate quis voluptates?</p>
+    </div>
+
+    <div id="dua">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias impedit exercitationem sequi tenetur incidunt similique, qui, nostrum doloremque fuga neque quas? Necessitatibus excepturi vitae ipsa adipisci assumenda cupiditate quis voluptates?</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing Mode</title>
+    <style>
+        .normal{ /*atas ke bawah*/
+            writing-mode: horizontal-tb;
+        }
+
+        .vkiri{
+            writing-mode: vertical-lr;
+            background-color: aqua;
+        }
+
+        .vkanan{ /*Kanak ke kiri*/
+            writing-mode: vertical-rl;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode">Doc</a>
+    <hr>
+    <h1 class="normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem earum saepe nam facere laboriosam, perferendis sint similique cumque dolorum, sit molestias? Laborum libero enim minus, sint pariatur nesciunt odit? Perferendis!</h1>
+    <h1 class="vkiri">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis inventore nesciunt esse quibusdam quos odit voluptatem eum, molestiae quidem iure nam reprehenderit adipisci neque tempora aut dolor molestias natus alias.</h1>
+    <h1 class="vkanan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquid ex deleniti inventore pariatur tempore nostrum hic enim adipisci. Eos asperiores voluptates delectus harum corrupti veniam dolorem sequi blanditiis laborum!</h1>
+</body>
+</html>
